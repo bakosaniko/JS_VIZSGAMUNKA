@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakos Anikó - A szendvics varázsló </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="priceSum">
+        <div id="actual-price" ></div>
+    </div>
+    <div id="start" >
+        <h1>SANDWICH <br>
+            WIZARD</h1>
+            
+        <button id="strt-btn">RENDELÉS</button>       
+        </div>
+
+<div id="order-form">
+
+        <div id="breadType-options" style="display: none;">
+            <h2>KÉREM VÁLASSZA KI A <br> KENYÉR TÍPUSÁT</h2>
+            
+        <div id="bread-options">
+            <input type="radio" id="bread" value="Fehér kenyér" name="bread">
+            <label for="feherkenyer">Fehér kenyér</label><br>
+            <input type="radio" id="bread" value="Teljes kiőrlésű kenyér"name="bread">
+            <label for="teljeskiorlesu">Teljes kiőrlésű kenyér</label><br>
+            <input type="radio" id="bread"name="bread" value="Ciabatta">
+            <label for="ciabatta">Ciabatta</label><br>
+            <input type="radio" id="bread" value="Szénhidrát-csökkentett cipó" name="bread">
+            <label for="chcsokkentett">Szénhidrát-csökkentett cipó</label><br>
+        </div>
+        <div id="nav-btn">
+            <button id="back1">MÉGSEM RENDELEK</button>
+            <button id="next1">TOVÁBB</button>
+        </div>
+            
+        </div>
+        <div id="baseType-options" style="display: none;">
+            <h2>KÉREM VÁLASSZA KI A<br>  SZENDVICS ALAPJÁT</h2>
+            <div id="base-options">
+               <input type="radio" id="baseType" value="Vaj" name="baseType">Vaj <br>
+               <input type="radio" id="baseType" value="Majonéz" name="baseType">Majonéz <br>
+               <input type="radio" id="baseType" value="Marinara szósz" name="baseType">Marinara szósz <br>
+            </div>
+            <div id="nav-btn">
+                <button id="back2">VISSZA</button>
+                <button id="next2">TOVÁBB</button>
+            </div>
+        </div>
+        <div id="toppings-options" style="display: none;">
+            <h2>KÉREM VÁLASSZA KI A<br>  SZENDVICS FELTÉTJEIT</h2>
+    
+            <div id="topping-options">
+                <input type="checkbox" name="toppings" value="sajt" > Sajt
+                <input type="checkbox" name="toppings" value="sonka" > Sonka
+                <input type="checkbox" name="toppings" value="szalámi"> Szalámi
+                <input type="checkbox" name="toppings" value="uborka"> Uborka
+                <input type="checkbox"  name="toppings" value="paradicsom"> Paradicsom
+            </div>
+            <div id="nav-btn">
+                <button id="back3">VISSZA</button>
+                <button id="next3">TOVÁBB</button>
+            </div>
+        </div>
+    
+        <div id="customerName-section" style="display: none;">
+            <h2>KÉREM ADJA MEG<br>  A NEVÉT</h2>
+    
+         <div id="name">
+            <label for="customerName" id="name-label">A megrendelő neve:</label>
+
+                <input id="customerName" type="text" name="customerName">
+            </div>
+            <div id="nav-btn">
+                <button id="back4">VISSZA</button>
+                <button id="next4">TOVÁBB</button>
+            </div>
+        </div>
+    
+        <div id="summary" style="display: none;">
+            <h2>KÉREM ELLENŐRIZZE<br>  RENDELÉSÉT</h2>
+    
+            <div id="sandwich_sum">
+                <h3>A rendelés részletei</h3>
+                <p><span>Kenyér:</span>
+                <span id="breadTypeSummary"></span>
+            </p>
+                <p><span>Alap:</span>
+                    <span id="baseTypeSummary"></span></p>
+                <p><span>Feltét(ek):</span>
+                    <span id="toppingsSummary"></span></p>
+                <p><span>Név:</span>
+                    <span id="customerNameSummary"></span></p>
+                <p><span>Végösszeg:</span>
+                <span id="finalPrice"></span></p>
+            </div>
+            <div id="nav-btn">
+                <button id="back5">VISSZA</button>
+                <button id="submit">MEGRENDELEM!</button>
+            </div>
+        </div>
+    
+    </div>
+    <script>
+
+    </script>
+    <script src="./script1.js"></script>
+</body>
+</html>

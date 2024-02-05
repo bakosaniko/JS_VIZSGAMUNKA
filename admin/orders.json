@@ -1,0 +1,333 @@
+[
+	{
+		"id": 9,
+		"breadType": "Fehér kenyér",
+		"base": "Vaj",
+		"toppings": [
+			"sonka",
+			"uborka"
+		],
+		"customerName": "Anikó",
+		"totalPrice": 5750
+	},
+	{
+		"id": 7,
+		"breadType": "Ciabatta",
+		"base": "Majonéz",
+		"toppings": "szalámi",
+		"customerName": "Péter",
+		"totalPrice": "2100"
+	},
+	{
+		"breadType": "Fehér kenyér",
+		"base": "",
+		"toppings": [],
+		"customerName": "",
+		"totalPrice": 400,
+		"id": 5
+	},
+	{
+		"breadType": "Fehér kenyér",
+		"base": "",
+		"toppings": [],
+		"customerName": "",
+		"totalPrice": 400,
+		"id": 6
+	},
+	{
+		"breadType": "Fehér kenyér",
+		"base": "Marinara szósz",
+		"toppings": [
+			"sajt"
+		],
+		"customerName": "Anikó",
+		"totalPrice": 1100,
+		"id": 7
+	},
+	{
+		"breadType": "Ciabatta",
+		"base": "Marinara szósz",
+		"toppings": [
+			"sajt"
+		],
+		"customerName": "Kati",
+		"totalPrice": 1300,
+		"id": 8
+	},
+	{
+		"breadType": "Fehér kenyér",
+		"base": "Marinara szósz",
+		"toppings": [
+			"sajt"
+		],
+		"customerName": "Anikó",
+		"totalPrice": 1100,
+		"id": 9
+	},
+	{
+		"breadType": "Fehér kenyér",
+		"base": "Majonéz",
+		"toppings": [
+			"sonka"
+		],
+		"customerName": "Robi",
+		"totalPrice": 1100,
+		"id": 10
+	},
+	{
+		"breadType": "Fehér kenyér",
+		"base": "Marinara szósz",
+		"toppings": [
+			"sonka",
+			"sajt"
+		],
+		"customerName": "Robi",
+		"totalPrice": 1100,
+		"id": 10
+	},
+	{
+		"breadType": "Teljes kiőrlésű kenyér",
+		"base": "Vaj",
+		"toppings": [
+			"sajt",
+			"sonka",
+			"paradicsom"
+		],
+		"customerName": "Lali",
+		"totalPrice": 1450,
+		"id": 11
+	},
+	{
+		"breadType": "Fehér kenyér",
+		"base": "Majonéz",
+		"toppings": [
+			"sajt",
+			"sonka"
+		],
+		"customerName": "Pali",
+		"totalPrice": 1300,
+		"id": 12
+	},
+	{
+		"breadType": "Fehér kenyér",
+		"base": "Vaj",
+		"toppings": [
+			"sajt",
+			"paradicsom"
+		],
+		"customerName": "Krisztián",
+		"totalPrice": 1000,
+		"id": 13
+	},
+	{
+		"breadType": "Ciabatta",
+		"base": "Majonéz",
+		"toppings": [
+			"sajt"
+		],
+		"customerName": "Józsi",
+		"totalPrice": 1200,
+		"id": 14
+	},
+	{
+		"breadType": "Fehér kenyér",
+		"base": "Majonéz",
+		"toppings": [
+			"sajt",
+			"paradicsom"
+		],
+		"customerName": "Lóri",
+		"totalPrice": 1100,
+		"id": 15
+	},
+	{
+		"breadType": "Teljes kiőrlésű kenyér",
+		"base": "Vaj",
+		"toppings": [
+			"paradicsom"
+		],
+		"customerName": "Huba",
+		"totalPrice": 950,
+		"id": 16
+	},
+	{
+		"breadType": "Fehér kenyér",
+		"base": "",
+		"toppings": [
+			"sonka",
+			"szalámi"
+		],
+		"customerName": "Gabi",
+		"totalPrice": 1000,
+		"id": 17
+	},
+	{
+		"breadType": "Fehér kenyér",
+		"base": "Marinara szósz",
+		"toppings": [
+			"sajt",
+			"sonka"
+		],
+		"customerName": "Tomi",
+		"totalPrice": 1400,
+		"id": 18
+	},
+	{
+		"breadType": "Teljes kiőrlésű kenyér",
+		"base": "Marinara szósz",
+		"toppings": [
+			"sajt",
+			"paradicsom"
+		],
+		"customerName": "Anikó",
+		"totalPrice": 1350,
+		"id": 19
+	},
+	{
+		"breadType": "Teljes kiőrlésű kenyér",
+		"base": "Majonéz",
+		"toppings": [
+			"sajt",
+			"szalámi"
+		],
+		"customerName": "Robi",
+		"totalPrice": 1450,
+		"id": 20
+	},
+	{
+		"breadType": "Fehér kenyér",
+		"base": "Majonéz",
+		"toppings": [
+			"sonka",
+			"paradicsom"
+		],
+		"customerName": "vivi",
+		"totalPrice": 1200,
+		"id": 21
+	},
+	{
+		"breadType": "Teljes kiőrlésű kenyér",
+		"base": "Vaj",
+		"toppings": [
+			"sajt",
+			"sonka"
+		],
+		"customerName": "Sanyi",
+		"totalPrice": 1350,
+		"id": 22
+	},
+	{
+		"breadType": "Teljes kiőrlésű kenyér",
+		"base": "Vaj",
+		"toppings": "sonka,szalámi",
+		"customerName": "Anna",
+		"totalPrice": "1650",
+		"id": 23
+	},
+	{
+		"breadType": "Fehér kenyér",
+		"base": "Vaj",
+		"toppings": "sonka,szalámi",
+		"customerName": "Ottó",
+		"totalPrice": "1400",
+		"id": 24
+	},
+	{
+		"breadType": "Ciabatta",
+		"base": "Nincs alap",
+		"toppings": "sajt,sonka",
+		"customerName": "Jani",
+		"totalPrice": "1400",
+		"id": 25
+	},
+	{
+		"breadType": "Ciabatta",
+		"base": "Majonéz",
+		"toppings": "sonka,szalámi",
+		"customerName": "Cili",
+		"totalPrice": "2500",
+		"id": 26
+	},
+	{
+		"breadType": "Teljes kiőrlésű kenyér",
+		"base": "Majonéz",
+		"toppings": "sajt,paradicsom, uborka",
+		"customerName": "Feri",
+		"totalPrice": "1250",
+		"id": 29
+	},
+	{
+		"breadType": "Ciabatta",
+		"base": "Vaj",
+		"toppings": "szalámi,uborka",
+		"customerName": "Dóri",
+		"totalPrice": "1500",
+		"id": 30
+	},
+	{
+		"breadType": "Teljes kiőrlésű kenyér",
+		"base": "Majonéz",
+		"toppings": "sonka",
+		"customerName": "Livi",
+		"totalPrice": "1150",
+		"id": 31
+	},
+	{
+		"breadType": "Fehér kenyér",
+		"base": "Majonéz",
+		"toppings": "sonka",
+		"customerName": "Eszter",
+		"totalPrice": "1300",
+		"id": 32
+	},
+	{
+		"breadType": "Ciabatta",
+		"base": "Vaj",
+		"toppings": "sajt,paradicsom",
+		"customerName": "Jani",
+		"totalPrice": "1200",
+		"id": 33
+	},
+	{
+		"breadType": "Teljes kiőrlésű kenyér",
+		"base": "Vaj",
+		"toppings": [
+			"sajt",
+			"sonka",
+			"szalámi"
+		],
+		"customerName": "Jani",
+		"totalPrice": 1650,
+		"id": 33
+	},
+	{
+		"id": 34,
+		"breadType": "Ciabatta",
+		"base": "Majonéz",
+		"toppings": [
+			"sonka",
+			"paradicsom"
+		],
+		"customerName": "Isti",
+		"totalPrice": 1400
+	},
+	{
+		"id": 34,
+		"breadType": "Ciabatta",
+		"base": "Majonéz",
+		"toppings": [
+			"sajt",
+			"paradicsom"
+		],
+		"customerName": "Viktor",
+		"totalPrice": 1300
+	},
+	{
+		"id": 35,
+		"breadType": "Fehér kenyér",
+		"base": "Vaj",
+		"toppings": "sajt,paradicsom",
+		"customerName": "Anikó",
+		"totalPrice": "1200"
+	}
+]

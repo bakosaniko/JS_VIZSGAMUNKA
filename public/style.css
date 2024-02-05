@@ -1,0 +1,136 @@
+body{
+    padding: 1%;
+    max-width: 50%;
+    margin-left: 50%;
+    background-color: green;
+    background-repeat: repeat;
+    background-size: cover;
+   background-image: url(./pictures/ba_background.jpg);
+   font-family:'Poppins', sans-serif;
+   color: white;
+}
+
+#start{
+    margin: auto;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    padding: 2%;
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    align-content: flex-end;
+    flex-wrap: wrap; 
+}
+#name, #summary{
+   margin: auto;
+   margin-right: 10%;
+   margin-bottom: 5%;
+   padding: 2%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   align-content: center;
+   flex-wrap: wrap;
+     
+}
+
+ #bread-options, #base-options {
+    max-width: 80%;
+    margin-left: 25%;
+    padding: 1%;
+    font-size: 24px;
+}
+
+#name-label, #topping-options{
+    max-width: 80%;
+    padding: 1%;
+    font-size: 24px;
+}
+
+#customerName{
+    display: block;
+    max-width: 80%;
+    padding: 1%;
+    justify-content: space-between;
+    align-content: center;
+    font-size: 24px;
+}
+
+#priceSum{
+    margin-left: 25%;
+    border-radius: 5%;
+}
+#sandwich_sum{
+    max-width: 50%;
+    margin-left: 25%;
+    border-radius: 5%;
+    font-size: larger;
+}
+h1{
+    font-family: 'Lilita One', sans-serif; 
+    font-size: 100px;
+    margin-top: 20%;
+    margin-right: 0; 
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Lilita One', sans-serif; 
+    font-size: 60px;
+    margin-top: 20%;
+    margin-right: 0;
+    text-align: center;
+}
+
+#strt-btn{
+    width: 80%;
+    padding: 1%;
+    font-size: 32px;
+    font-weight: bolder;
+    position: relative;
+    border-radius: 100px;
+    border: 1px black solid;
+    background-color: #FFE222;
+    margin-left: 10%;
+   
+}
+#nav-btn{
+    display: flex;
+    margin-top: 15%;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    padding: 1%;
+    max-width: 100%;
+position: relative;
+}
+
+#nav-btn button{
+    background-color: #FFE222;
+    border: 1px black solid;
+    border-radius: 100px;
+    padding: 1%;
+    width: 40%;
+    font-weight: bolder;
+    font-size: 20px;
+
+}
+
+ @media screen and (max-width: 1000px){
+    body{
+        max-width: 80%;
+        margin: auto;
+        background-color: rgb(4, 66, 4);
+        background-image: none;
+    }
+    #start{
+        justify-content: center;
+        margin: auto;
+    }
+  #sandwich_sum{
+    max-width: 80%;
+    margin: auto;
+
+  }
+
+}
